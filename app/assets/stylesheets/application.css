@@ -14,5 +14,6 @@
  *= require_self
  */
 footer { margin-top: 100px; }
+body { padding-top: 60px; }
 td { text-align: center; padding-left: 10px; }
 th { border-bottom: 1px solid #DDD; padding-left: 20px; }

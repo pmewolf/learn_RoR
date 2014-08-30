@@ -2,8 +2,11 @@
 <html>
 <head>
   <title>Workspace</title>
+  <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+<!--
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+-->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -23,6 +26,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Link</a></li>
+        <li ><%= link_to 'New Idea', new_idea_path %></li>
       </ul>
     </div>
   </div>
